@@ -251,6 +251,7 @@ color: var(--2and-main-color);
     border-radius: 5px;
     cursor: pointer;
     transition: all .40s;
+ 
 }
 
 .icon{
@@ -267,11 +268,13 @@ color: var(--2and-main-color);
     font-weight: 500 ;
     margin-bottom: 10px;
     color: var(--text-color);
+    
 }
 .row p{
 font-size: 18px;
 color: var(--text-color);
 line-height: 30px;
+ word-wrap: break-word;
 }
 .row:hover{
 transform:  translatey(-15px);
