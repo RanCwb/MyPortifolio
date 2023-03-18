@@ -27,3 +27,10 @@ const open = ScrollReveal ({
 open.reveal('.home-text',{delay:200, origin:'top'})
 open.reveal('.home-img',{delay:400, origin:'top'})
 open.reveal('.about, .services, .resume, ',{delay:200, origin:'top'})
+
+ let  github =  document.getElementById('github')
+  
+    github.onclick = function () {  
+        
+    window.open('https://github.com/RanCwb')
+}
