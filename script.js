@@ -34,3 +34,23 @@ open.reveal('.about, .services, .resume, ',{delay:200, origin:'top'})
         
     window.open('https://github.com/RanCwb')
 }
+
+
+let  cash = document.getElementById('cash')
+
+    cash.onclick = function () {
+        
+        window.open('https://github.com/RanCwb/AppFinance')
+    }
+
+
+let  insta = document.getElementById('insta')
+
+    insta.onclick = function () {
+        
+        window.open('https://github.com/RanCwb/appInsta')
+    }
+
+
+
+
