@@ -6,6 +6,7 @@ menu.onclick = () =>{
 
     menu.classList.toggle('bx-x')
     navbar.classList.toggle('active')
+    
 
 }
 
@@ -34,6 +35,15 @@ open.reveal('.about, .services, .resume, ',{delay:200, origin:'top'})
         
     window.open('https://github.com/RanCwb')
 }
+
+let linkedin = document.getElementById('linkedin')
+
+    linkedin.onclick = function () {
+        
+        window.open('https://www.linkedin.com/in/ranathan-henrique-38ab5626b/')
+    }
+
+
 
 
 let  cash = document.getElementById('cash')

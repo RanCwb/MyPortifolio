@@ -291,13 +291,30 @@ color: var(--2and-main-color);
     margin-bottom: 20px;
 
 }
+.fut{
+
+ 
+    width: 100%;
+    height: 70px;
+
+}
+.fut h5{
+
+   
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    font-weight: normal;
+    font-size:17px;
+}
 
 .row h3{
 
     font-size: 1.25;
     font-weight: 500 ;
     margin-bottom: 10px;
-    color: var(--text-color);
+    color: var(--main-color);
     
 }
 .row p{
