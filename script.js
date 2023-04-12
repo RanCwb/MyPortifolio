@@ -44,8 +44,6 @@ let linkedin = document.getElementById('linkedin')
     }
 
 
-
-
 let  cash = document.getElementById('cash')
 
     cash.onclick = function () {
@@ -62,5 +60,11 @@ let  insta = document.getElementById('insta')
     }
 
 
+let homer = document.getElementById('homer')
+
+    homer.onclick = function () {
+        
+        window.open('https://homer-gamer.vercel.app/')
+    }   
 
 
