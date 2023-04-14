@@ -58,6 +58,12 @@ let  insta = document.getElementById('insta')
         
         window.open('https://github.com/RanCwb/appInsta')
     }
+let post = document.getElementById('post')
+
+    post.onclick = () => {
+        
+        window.open('https://github.com/RanCwb/AppSocialPost') 
+    }
 
 
 let homer = document.getElementById('homer')
