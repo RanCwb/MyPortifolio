@@ -73,4 +73,28 @@ let homer = document.getElementById('homer')
         window.open('https://homer-gamer.vercel.app/')
     }   
 
+    let cokie = document.getElementById('cokie')
 
+    cokie.onclick  = () => {
+
+        window.open('https://biscoito-da-sorte-zeta.vercel.app/')
+
+    }
+
+    let task = document.getElementById('task')
+
+    task.onclick = () => {
+
+        window.open('https://github.com/RanCwb/App-Task-List')
+
+
+    }
+
+    let = time = document.getElementById('time')
+       
+    time.onclick = () => {
+
+        window.open('https://github.com/RanCwb/stopwatch-App')
+
+
+    }

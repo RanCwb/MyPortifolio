@@ -11,7 +11,7 @@
 
 :root{
 
-    --bg-color: #10101a;
+    --bg-color: #10101a		;
     --main-color:#20B2AA;
     --2and-main-color: #ffffffcc;
     --text-color: #fff;
@@ -293,14 +293,15 @@ color: var(--2and-main-color);
 }
 .fut{
 
- 
+    background-color:  #0b0b13;
     width: 100%;
     height: 70px;
+    
 
 }
 .fut h5{
 
-   
+    margin-top: 30px;
     position: absolute;
     justify-content: center;
     align-items: center;
@@ -340,6 +341,7 @@ box-shadow: 0px 15px 30px 0px rgb(0, 0,0 / 70%);
     margin-top: 4.4rem;
 
 }
+
 .box{
 
   background: #0b0b13;  
@@ -484,6 +486,7 @@ box-shadow: 0px 15px 30px 0px rgb(0, 0,0 / 70%);
 
     }
 }
+
 
 @media (max-width: 795px){
 
