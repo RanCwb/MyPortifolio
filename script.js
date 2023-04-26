@@ -1,100 +1,81 @@
-let menu = document.querySelector('#menu-icon')
-let navbar = document.querySelector('.navbar')
+let menu = document.querySelector("#menu-icon");
+let navbar = document.querySelector(".navbar");
 
+menu.onclick = () => {
+    menu.classList.toggle("bx-x");
+    navbar.classList.toggle("active");
+};
 
-menu.onclick = () =>{
+window.onscroll = () => {
+    menu.classList.remove("bx-x");
+    navbar.classList.remove("active");
+};
 
-    menu.classList.toggle('bx-x')
-    navbar.classList.toggle('active')
-    
+const open = ScrollReveal({
+    distance: "60px",
+    duration: 2500,
+    reset: true,
+});
 
-}
+open.reveal(".home-text", { delay: 200, origin: "top" });
+open.reveal(".home-img", { delay: 400, origin: "top" });
+open.reveal(".about, .services, .resume, ", { delay: 200, origin: "top" });
 
-window.onscroll = () =>{
+let github = document.getElementById("github");
 
-    menu.classList.remove('bx-x')
-    navbar.classList.remove('active')
+github.onclick = function () {
+    window.open("https://github.com/RanCwb");
+};
 
-}
+let linkedin = document.getElementById("linkedin");
 
-const open = ScrollReveal ({
+linkedin.onclick = function () {
+    window.open("https://www.linkedin.com/in/ranathan-henrique-38ab5626b/");
+};
 
+let cash = document.getElementById("cash");
 
-    distance:'60px',
-    duration:2500,
-    reset: true
-})
+cash.onclick = function () {
+    window.open("https://github.com/RanCwb/AppFinance");
+};
 
-open.reveal('.home-text',{delay:200, origin:'top'})
-open.reveal('.home-img',{delay:400, origin:'top'})
-open.reveal('.about, .services, .resume, ',{delay:200, origin:'top'})
+let insta = document.getElementById("insta");
 
- let  github =  document.getElementById('github')
-  
-    github.onclick = function () {  
-        
-    window.open('https://github.com/RanCwb')
-}
+insta.onclick = function () {
+    window.open("https://github.com/RanCwb/appInsta");
+};
+let post = document.getElementById("post");
 
-let linkedin = document.getElementById('linkedin')
+post.onclick = () => {
+    window.open("https://github.com/RanCwb/AppSocialPost");
+};
 
-    linkedin.onclick = function () {
-        
-        window.open('https://www.linkedin.com/in/ranathan-henrique-38ab5626b/')
-    }
+let homer = document.getElementById("homer");
 
+homer.onclick = function () {
+    window.open("https://homer-gamer.vercel.app/");
+};
 
-let  cash = document.getElementById('cash')
+let cokie = document.getElementById("cokie");
 
-    cash.onclick = function () {
-        
-        window.open('https://github.com/RanCwb/AppFinance')
-    }
+cokie.onclick = () => {
+    window.open("https://biscoito-da-sorte-zeta.vercel.app/");
+};
 
+let task = document.getElementById("task");
 
-let  insta = document.getElementById('insta')
+task.onclick = () => {
+    window.open("https://github.com/RanCwb/App-Task-List");
+};
 
-    insta.onclick = function () {
-        
-        window.open('https://github.com/RanCwb/appInsta')
-    }
-let post = document.getElementById('post')
+let = time = document.getElementById("time");
 
-    post.onclick = () => {
-        
-        window.open('https://github.com/RanCwb/AppSocialPost') 
-    }
+time.onclick = () => {
+    window.open("https://github.com/RanCwb/stopwatch-App");
+};
 
+let = past = document.getElementById("past");
 
-let homer = document.getElementById('homer')
-
-    homer.onclick = function () {
-        
-        window.open('https://homer-gamer.vercel.app/')
-    }   
-
-    let cokie = document.getElementById('cokie')
-
-    cokie.onclick  = () => {
-
-        window.open('https://biscoito-da-sorte-zeta.vercel.app/')
-
-    }
-
-    let task = document.getElementById('task')
-
-    task.onclick = () => {
-
-        window.open('https://github.com/RanCwb/App-Task-List')
-
-
-    }
-
-    let = time = document.getElementById('time')
-       
-    time.onclick = () => {
-
-        window.open('https://github.com/RanCwb/stopwatch-App')
-
-
-    }
+past.onclick = () => {
+    window.open("https://github.com/RanCwb/AppSayHello");
+};
