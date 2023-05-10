@@ -4,257 +4,269 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
-        <title>Responsivo Portifolio</title>
+        <title>Document</title>
         <link rel="stylesheet" href="styles.css" />
-        <link rel="stylesheet" href="boxicons.min.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Comic+Neue:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
             rel="stylesheet"
         />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
     </head>
     <body>
-        <header>
-            <a href="#" class="logo"> Port<span>fólio</span></a>
-            <div class="bx bx-menu">
-                <ion-icon id="menu-icon" name="menu-outline"></ion-icon>
+        <header class="header">
+            <a href="#" class="logo">Ranathan</a>
+
+            <div class="bx bx-menu" id="menu-icon">
+                <box-icon name="menu"></box-icon>
             </div>
 
-            <ul class="navbar">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#services">Projetos</a></li>
-                <li><a href="#resume">Experiências</a></li>
-            </ul>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">Sobre</a>
+                <a href="#education">Educação</a>
+                <a href="#skills"> Habilidades</a>
+            </nav>
         </header>
 
         <section class="home" id="home">
-            <div class="home-text">
-                <h5>Hello, I am</h5>
-                <h1>Ranathan Henrique</h1>
-                <h6>& sou desenvolvedor <span>Junior</span></h6>
+            <div class="home-content" id="home">
+                <h1>Hi, I'm <span>Ranathan Henrique</span></h1>
+                <div class="text-animate">
+                    <h3>Back-End Developer</h3>
+                </div>
                 <p>
                     Apaixonado por tecnologias disposto a mudar a vida das
                     pessoas através do desenvolvimento!
                 </p>
-                <a href="./src/assets/CV.PRHO.pdf" id="cv" class="btn"
-                    >Download Cv
-                </a>
+                <div class="btn-box">
+                    <a href="#" class="btn">Linkedin</a>
+                    <a href="#" class="btn">Download CV</a>
+                </div>
             </div>
-
-            <div class="home-img">
-                <img src="img/IMG-20230411-WA00142.jpg" alt="" />
+            <div class="home-sci">
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+                <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                <a href="#"><i class="bx bxl-whatsapp"></i></a>
             </div>
         </section>
 
         <section class="about" id="about">
+            <h2 class="heading">About <span>Me</span></h2>
+
             <div class="about-img">
-                <img src="img/giphy (2).gif" alt="" />
+                <img src="img/IMG-20230411-WA00142.jpg" />
+                <span class="circle-spin"></span>
             </div>
-
-            <div class="about-text">
-                <h3>Sobre Mim</h3>
-                <h2>Desenvolvedor Junior!</h2>
+            <div class="about-content">
+                <h3><span>Back-End</span> Developer</h3>
                 <p>
-                    Olá, tudo bem? Me chamo Ranathan e tenho 23 anos. Atualmente
+                     Me chamo Ranathan e tenho 23 anos. Atualmente
                     estou no terceiro período da faculdade de análise e
-                    desenvolvimento de sistemas. Estou á procura de ingressar no
-                    mercado de tecnologia, com vários projetos disponíveis para
-                    avaliação, tenho conhecimentos nas seguintes
-                    tecnologias:<span class="spwn"> ReactJs </span>,
-                    <span class="jss">JavaScript</span>,
-                    <span class="rn">React Native </span>,<span class="hts">
-                        HTML</span
-                    >,<span class="cxx"> CSS</span>,
-                    <span class="mg">MongoDB</span>,
-                    <span class="tsx"> TypeScript</span>,<span class="fsb"
-                        >FireBase </span
-                    >& <span class="psg">PostGres</span>. Estou à procura de
-                    novos desafios no mercado de trabalho, procuro sempre
-                    aperfeiçoar meus conhecimentos, sou dedicado, concentrado e
-                    cheio de vontade.
+                  .
                 </p>
-                <div class="count">
-                    <a href="#"
-                        ><span class="spwn">+10</span> Projetos Completos</a
-                    >
-                    <a href="#"
-                        ><span class="spwn">+2</span> Projetos Em Andamento</a
-                    >
-                </div>
-
-                <div class="main-btn">
-                    <a href="#" id="linkedin" class="btn">Linkedin</a>
-                    <a href="#" id="github" class="btn">Git GitHub</a>
+                <div class="btn-box btns">
+                    <a href="#" class="btn">Read</a>
                 </div>
             </div>
         </section>
 
-        <section class="services" id="services">
-            <div class="center">
-                <h3>Projetos</h3>
-            </div>
-
-            <div class="services-content">
-                <div class="row" id="cash">
-                    <ion-icon class="icon" name="cash-outline"></ion-icon>
-                    <h3>App Controle Financeiro</h3>
-                    <p>
-                        Aplicativo construído em react native, desde API até
-                        todas as funcionalidades, nele você pode controlar
-                        entrada e saídas de valores!
-                    </p>
-                </div>
-                <div id="insta" class="row">
-                    <ion-icon class="icon" name="logo-instagram"></ion-icon>
-                    <h3>App réplica Instagram</h3>
-                    <p>
-                        Uma réplica do nosso bom instragram como fins de
-                        aperfeiçoar conhecimetos em ReactJs!
-                    </p>
-                </div>
-                <div class="row" id="task">
-                    <ion-icon class="icon" name="newspaper-outline"></ion-icon>
-                    <h3>App Lista de tarefas</h3>
-                    <p>
-                        Fácil e prático para organização, e de fácil leitura,
-                        construído em React Native
-                        <ion-icon name="logo-react"></ion-icon>
-                    </p>
-                </div>
-                <div class="row" id="time">
-                    <ion-icon class="icon" name="time"></ion-icon>
-                    <h3>App Cronômetro</h3>
-                    <p>
-                        Já pensou em controlar o tempo? Com esse App você pode!
-                    </p>
-                </div>
-                <div class="row" id="homer">
-                    <ion-icon class="icon" name="happy-outline"></ion-icon>
-                    <h3>Pula Pula Homer</h3>
-                    <p>
-                        Similiar ao lendário 'Mario Game' nesse jogo você pode
-                        ajudar o homer a saltar sobre os Bart's
-                    </p>
-                </div>
-                <div class="row" id="post">
-                    <ion-icon class="icon" name="chatbubble-outline"></ion-icon>
-                    <h3>App Social Post</h3>
-                    <p>
-                        Nesse App você é capaz de fazer publicações e interagir
-                        com os outros usuários, faça seus Posts, se conecte e se
-                        divirta!
-                    </p>
-                </div>
-                <div id="insta" class="row">
-                    <ion-icon class="icon" name="videocam-outline"></ion-icon>
-                    <h3>Web - Site Catálogos de Filmes (Em Progresso).</h3>
-                    <p>
-                        Consumindo Api Externa, aqui você pode filtrar e
-                        adicionar seus filmes favoritos, além de
-                        favoritar,assistir ao trailer e muito mais!
-                    </p>
-                </div>
-                <div id="cokie" class="row">
-                    <ion-icon class="icon" name="help-outline"></ion-icon>
-                    <h3>Biscoito Da Sorte</h3>
-                    <p>
-                        Com mais de 200 frases, tenho certeza que uma delas vai
-                        melhorar o seu dia!
-                    </p>
-                    <div class="lki"></div>
-                </div>
-                <div id="past" class="row">
-                    <ion-icon class="icon" name="at-outline"></ion-icon>
-                    <h3>App Sala de Chats.</h3>
-                    <p>
-                        App, construído em React Native, nele você pode criar
-                        salar e ir se conectando com outras pessoas tudo em Real
-                        Time, nele o usuário pode criar até 5 salas.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section class="resume" id="resume">
-            <div class="center">
-                <h3>Experiências e Escolaridade!</h3>
-            </div>
-
-            <div class="resume-content">
-                <div class="box">
-                    <h6>2024 - Conclusão</h6>
-                    <h4 class="cr">Análise e Desenvolvimento de Sistemas</h4>
-                    <p>
-                        Curso superior em andamento com previsão de conslusão em
-                        Agosto de 2024.
-                    </p>
-                    <h5>Curitiba - Pr</h5>
-                </div>
-                <div class="box">
-                    <h6>Fevereiro 2022</h6>
-                    <h4 class="cr">
-                        English Course - Intermediário - Cursando
-                    </h4>
-                    <p>Wizard Escola de idiomas</p>
-                    <h5>São José Dos Pihais - Pr</h5>
+        <section class="education" id="education">
+            <h2 class="heading">Minha <span>Jornada</span></h2>
+            <div class="education-row">
+                <div class="education-column">
+                    <h3 class="title">Esperiência & Escolaridade</h3>
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year">
+                                    <i class="bx bx-world"> 2021-2024</i>
+                                    <h3>Wizard - English Course</h3>
+                                    <p>
+                                      English Course, aperfeiçoamento, da língua, junto com 
+                                      as mais boas práticas de Speaking, Listening & Reading.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year">
+                                    <i class="bx bx-world"> 2021-2024</i>
+                                    <h3 class="txt">Wizard - French Course</h3>
+                                    <p>
+                                       French Course, aperfeiçoamento, da língua, junto com 
+                                      as mais boas práticas de conversação e diálogo.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year">
+                                    <i class="bx bx-v"> 2017-2018</i>
+                                    <h3>master degreee - univesidade</h3>
+                                    <p>
+                                        Aplicativo construído em react native,
+                                        desde API até todas as funcionalidades,
+                                        nele você pode controlar entrada e
+                                        saídas de valores!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year">
+                                    <i class="bx bx-map"> 2017-2018</i>
+                                    <h3>master degreee - univesidade</h3>
+                                    <p>
+                                        Aplicativo construído em react native,
+                                        desde API até todas as funcionalidades,
+                                        nele você pode controlar entrada e
+                                        saídas de valores!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="box">
-                    <h6>2018 C&A</h6>
-                    <h4 class="cr">Analista de Processos.</h4>
-                    <p>
-                        Reponsável por análise de documentos e conferência de
-                        processos da loja.
-                    </p>
-                    <h5>Curitiba - Pr</h5>
-                </div>
+                <div class="education-column">
+                    <h3 class="title">Projetos</h3>
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year">
+                                    <i class="bx bxl-pen"> 2017-2018</i>
+                                    <h3>master degreee - univesidade</h3>
+                                    <p>
+                                        Aplicativo construído em react native,
+                                        desde API até todas as funcionalidades,
+                                        nele você pode controlar entrada e
+                                        saídas de valores!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year">
+                                    <i class="bx bxl-whatsapp"> 2017-2018</i>
+                                    <h3>master degreee - univesidade</h3>
+                                    <p>
+                                        Aplicativo construído em react native,
+                                        desde API até todas as funcionalidades,
+                                        nele você pode controlar entrada e
+                                        saídas de valores!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year">
+                                    <i class="bx bxl-whatsapp"> 2017-2018</i>
+                                    <h3>master degreee - univesidade</h3>
+                                    <p>
+                                        Aplicativo construído em react native,
+                                        desde API até todas as funcionalidades,
+                                        nele você pode controlar entrada e
+                                        saídas de valores!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year">
+                                    <i class="bx bxl-whatsapp"> 2017-2018</i>
+                                    <h3>master degreee - univesidade</h3>
+                                    <p>
+                                        Aplicativo construído em react native,
+                                        des
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="box">
-                    <h6>2021 Renner S.A</h6>
-                    <h4 class="cr">Auxiliar Financeiro</h4>
-                    <p>
-                        Emissão de notas fiscais, controle financeiro, pagamento
-                        entre outras demandas pertencentes ao cargo.
-                    </p>
-                    <h5>São José Dos Pinhais - Pr</h5>
-                </div>
 
-                <div class="box">
-                    <h6>2022 Hw Solutions</h6>
-                    <h4 class="cr">Líder de Suporte</h4>
-                    <p>
-                        Suporte ao cliente, auxiliando nas demandas de sistemas,
-                        e também ajudando na implementação/atualização de
-                        sistemas.
-                    </p>
-                    <h5>Curitiba - Pr</h5>
-                </div>
-
-                <div class="box">
-                    <h6>2023 - Let's Deliver</h6>
-                    <h4 class="cr">Desenvolvedor</h4>
-                    <p>
-                        Desenvolvimento Mobile & Web, correção de Bugs e
-                        atualizações do sistema, junto com ajuda ao
-                        desenvolvimento de novas funcionalidades.
-                    </p>
-                    <h5>Curitiba - Pr</h5>
-                </div>
             </div>
         </section>
+        
+        <section class="skills" id="skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <div class="skills-row">
+                <div class="skills-column">
+                    <h3 class="title">Front-End <span>Skills</span> </h3>
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <div class="progress">
+                                <h3>REACT JS<span></span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            
+                            <div class="progress">
+                                <h3>JAVASCRIPT<span></span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                
+                                <h3>REACT NATIVE<span></span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>TYPESCRIPT<span></span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        <footer class="fut">
-            <h5 class="futh3">Curitiba - Paraná 2023</h5>
-        </footer>
+                <div class="skills-column">
+                    <h3 class="title">Back-End <span>Skills</span></h3>
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <div class="progress">
+                                <h3> C#<span></span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            
+                            <div class="progress">
+                                <h3>JAVA<span></span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
 
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <script type="text/javascript" src="script.js"></script>
+                            <div class="progress">
+                                <h3>PYTHON<span></span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>C++<span></span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>MYSQL<span></span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            <div class="progress">
+                                <h3>NODE JS<span></span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+        <script src="index.js"></script>
     </body>
 </html>
